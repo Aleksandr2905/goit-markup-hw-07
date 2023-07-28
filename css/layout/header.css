@@ -11,8 +11,8 @@
 
 .page-header-container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
 
 .header-logo {
@@ -55,34 +55,20 @@
     display: block;
   }
 
-  .address {
-    display: block;
-    font-style: normal;
-    margin-left: auto;
+  .site-nav-link {
+    display: inline-block;
     padding-top: 24px;
     padding-bottom: 24px;
+    transition-property: color;
+    transition-duration: var(--transition-duration);
+    transition-timing-function: var(--transition-function);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
   }
 
-  .page-nav {
-    display: flex;
-    align-items: center;
-  }
-
-  .site-nav {
-    display: flex;
-    gap: 40px;
-  }
-
-  /* .address {
-    
-  } */
-
-  .nav-contact:not(:last-child) {
-    margin-bottom: 12px;
-  }
-}
-
-@media screen and (min-width: 1158px) {
   .link-nav-active {
     position: relative;
     color: #404bbf;
@@ -101,36 +87,24 @@
     background: #404bbf;
   }
 
-  .site-nav-link {
-    display: inline-block;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    transition-property: color;
-    transition-duration: var(--transition-duration);
-    transition-timing-function: var(--transition-function);
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--secondary-text-color);
+  .address {
+    display: block;
+    font-style: normal;
+    margin-left: auto;
   }
 
-  .site-nav-link:hover,
-  .site-nav-link:focus {
-    color: #404bbf;
+  .page-nav {
+    display: flex;
+    align-items: center;
   }
 
-  .site-nav-link.link-nav-active {
-    color: #404bbf;
-  }
-
-  .address-list {
+  .site-nav {
     display: flex;
     gap: 40px;
   }
 
-  .nav-contact {
-    margin-bottom: 0;
+  .nav-contact:not(:last-child) {
+    margin-bottom: 12px;
   }
 
   .nav-contact .link {
@@ -143,6 +117,30 @@
     transition-duration: var(--transition-duration);
     transition-timing-function: var(--transition-function);
     color: var(--primary-text-color);
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .site-nav-link:hover,
+  .site-nav-link:focus {
+    color: #404bbf;
+  }
+
+  .site-nav-link.link-nav-active {
+    color: #404bbf;
+  }
+  .address {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .address-list {
+    display: flex;
+    gap: 40px;
+  }
+
+  .nav-contact:not(:last-child) {
+    margin-bottom: 0;
   }
 
   .nav-contact .link:hover,
