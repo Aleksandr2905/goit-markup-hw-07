@@ -1,0 +1,14 @@
+.work-container {
+  display: none;
+}
+
+@media screen and (min-width: 1158px) {
+  .work-container {
+    display: block;
+  }
+
+  .section-item {
+    display: flex;
+    gap: 24px;
+  }
+}
