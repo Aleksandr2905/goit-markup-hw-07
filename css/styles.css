@@ -4,61 +4,6 @@
 
 /* ======= HERO ======= */
 
-.hero {
-  margin-left: auto;
-  margin-right: auto;
-  padding: 188px 0;
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/people-office.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  max-width: 1440px;
-  background-color: var(--secondary-text-color);
-}
-
-.hero-title {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 496px;
-  margin-bottom: 48px;
-  font-size: 56px;
-  font-weight: 700;
-  line-height: 1.07;
-  letter-spacing: 1.12px;
-  text-align: center;
-  color: var(--background-primary-color);
-}
-
-.button {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border: none;
-  min-width: 169px;
-  border-radius: 4px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  padding: 16px 32px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.64px;
-  transition-property: background-color;
-  transition-duration: var(--transition-duration);
-  transition-timing-function: var(--transition-function);
-  color: var(--background-primary-color);
-  background-color: var(--accent-color);
-}
-
-.button:hover,
-.button:focus {
-  background-color: #404bbf;
-}
-
 /* ======= SECTION ======= */
 
 .visually-hiddeen {
