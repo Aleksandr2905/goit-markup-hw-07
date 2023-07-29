@@ -3,7 +3,7 @@
 }
 
 .container-team {
-  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .team-item {
@@ -72,7 +72,7 @@
 
 @media screen and (min-width: 1158px) {
   .container-team {
-    padding-top: 120px;
+    padding-bottom: 120px;
   }
   .team-item {
     max-width: 100%;
@@ -87,19 +87,3 @@
     background-color: #404bbf;
   }
 }
-
-/* 
-
-
-
-.team-list {
-  text-align: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-
-
-
-
-
- */
