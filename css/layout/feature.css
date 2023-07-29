@@ -36,6 +36,10 @@
     column-gap: 24px;
   }
 
+  .sign-feature {
+    text-align: start;
+  }
+
   .feature-item {
     width: calc((100% - 72px) / 2);
   }
