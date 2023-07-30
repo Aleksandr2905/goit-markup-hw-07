@@ -206,6 +206,11 @@
     margin-right: 120px;
   }
 
+  .footer-social-link:hover,
+  .footer-social-link:focus {
+    background-color: #31d0aa;
+  }
+
   .footer-subscribe {
     margin-left: auto;
   }
@@ -281,11 +286,6 @@
   transition-timing-function: var(--transition-function);
   background-color: var(--accent-color);
   fill: #f4f4fd;
-}
-
-.footer-social-link:hover,
-.footer-social-link:focus {
-  background-color: #31d0aa;
 }
 
 .footer-subscribe {
