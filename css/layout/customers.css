@@ -43,6 +43,9 @@
 }
 
 @media screen and (min-width: 1158px) {
+  .customers-list {
+  justify-content: space-between;
+  
   .customers-item {
     width: calc((100% - 120px) / 6);
   }
