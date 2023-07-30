@@ -5,7 +5,6 @@
 
 .footer-list {
   width: 100%;
-  /* display: block; */
 }
 
 .page-footer {
@@ -54,7 +53,6 @@
 
 .footer-social {
   padding-bottom: 72px;
-  /* display: inline-block; */
 }
 
 .footer-social-list {
@@ -81,11 +79,6 @@
   fill: #f4f4fd;
 }
 
-.footer-subscribe {
-  /* display: inline-block;
-  margin-left: auto; */
-}
-
 .footer-subscribe-text {
   text-align: center;
   margin-bottom: 16px;
@@ -94,16 +87,6 @@
   line-height: 1.5;
   letter-spacing: 0.32px;
   color: var(--background-primary-color);
-}
-
-.footer-subscribe-form {
-  /* display: flex;
-  gap: 24px; */
-}
-
-.footer-subscribe-label {
-  /* display: flex;
-  align-items: center; */
 }
 
 .footer-subscribe-input {
@@ -163,20 +146,80 @@
   margin-left: 16px;
 }
 
-/* .footer {
-  padding: 100px 0;
-  background-color: var(--secondary-text-color);
+@media screen and (min-width: 768px) {
+  .footer-list {
+    display: flex;
+    width: 584px;
+    flex-wrap: wrap;
+  }
+
+  .page-footer {
+    text-align: start;
+    width: 264px;
+    margin-right: 24px;
+  }
+
+  .footer-text {
+    width: 264px;
+  }
+
+  .footer-subscribe {
+    display: inline-block;
+  }
+
+  .footer-social {
+    display: inline-block;
+    padding-bottom: 0;
+  }
+
+  .footer-subscribe-form {
+    display: flex;
+    gap: 24px;
+  }
+
+  .footer-subscribe-text {
+    text-align: start;
+  }
+
+  .footer-subscribe-label {
+    display: flex;
+    align-items: center;
+  }
+
+  .footer-subscribe-input {
+    width: 264px;
+  }
 }
 
-.footer-list {
-  display: flex;
-  align-items: baseline;
-}
+@media screen and (min-width: 1158px) {
+  .footer {
+    padding: 100px 0;
+  }
 
-.page-footer {
-  width: 264px;
-  margin-right: 120px;
+  .footer-list {
+    width: 1158px;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+
+  .page-footer {
+    margin-right: 120px;
+  }
+
+  .footer-subscribe {
+    margin-left: auto;
+  }
+
+  .subscribe-btn:hover,
+  .subscribe-btn:focus {
+    background-color: #404bbf;
+  }
 }
+/* 
+
+
+
+
 
 .footer-logo {
   display: inline-block;
@@ -320,10 +363,7 @@
   transition-timing-function: var(--transition-function);
 }
 
-.subscribe-btn:hover,
-.subscribe-btn:focus {
-  background-color: #404bbf;
-}
+
 
 .subscribe-btn-icon {
   fill: var(--background-primary-color);
