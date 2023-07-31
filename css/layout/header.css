@@ -135,6 +135,10 @@
     margin-right: 76px;
   }
 
+  .site-nav {
+    margin: 0;
+  }
+
   .site-nav-link:hover,
   .site-nav-link:focus {
     color: #404bbf;
