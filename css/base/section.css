@@ -6,17 +6,17 @@
 .section-subject {
   text-align: center;
   margin-bottom: 8px;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.4px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
   color: var(--secondary-text-color);
 }
 
 .section-subtitle {
   margin-bottom: 8px;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
   color: var(--primary-text-color);
